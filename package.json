@@ -1,12 +1,10 @@
 {
-    "name": "ganache-railway",
+    "name": "ganache-project",
     "version": "1.0.0",
-    "main": "index.js",
+    "description": "Ganache blockchain deployed on Railway",
     "scripts": {
-      "start": "ganache-cli -h 0.0.0.0 -p 8545 -d"
+      "start": "echo 'Ganache is running via Dockerfile, no index.js needed'"
     },
-    "dependencies": {
-      "ganache-cli": "^6.12.2"
-    }
+    "dependencies": {}
   }
   
