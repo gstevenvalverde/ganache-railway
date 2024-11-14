@@ -1,0 +1,12 @@
+{
+    "name": "ganache-railway",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "start": "ganache-cli -h 0.0.0.0 -p 8545 -d"
+    },
+    "dependencies": {
+      "ganache-cli": "^6.12.2"
+    }
+  }
+  
